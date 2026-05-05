@@ -21,7 +21,7 @@ public class GameService {
     private static final int MIN_NUMBER = 1;
     private static final int MAX_NUMBER = 5;
     private static final int BUY_TURNS_AMOUNT = 5;
-    private static final double WIN_RATE = 0.5;
+    private static final double WIN_RATE = 0.05;
 
     private final UserRepository userRepository;
     private final SecureRandom random = new SecureRandom();
